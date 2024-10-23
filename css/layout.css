@@ -1,46 +1,50 @@
+/*Application de display flex pour pouvoir utiliser un flex direction colonne qui permet de positionner correctement les éléments. Utilisation de space-between pour espacer la partie top de la partie bottom*/
 .app-wrapper{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+/*application des display flex pour remettre les éléments a la ligne. height pour que le top prenne l'entierté de la page et application de la couleur*/
 .app-top{
     display: flex;
     height: 100%;
     background: linear-gradient(#000,#313131);
 }
-.app-top .app-nav{
+/*display flex pour pouvoir appliquer align-item pour centrer les éléments et justify-content pour espacer et flex direction en column car le display flex a mis les éléments a la ligne et pour finir application de la couleur.*/
+.app-nav{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     background-color: #313131;
-}
+}/*display flex pour utiliser flex direction column et utilisation de width pour prendre l'entierté de l'éspace. */
 .app-content{
     display: flex;
     flex-direction: column;
     width: 100%;
 }
+/*display flex pour remmetre les élément a la suite*/
 .album{
     display: flex;
 }
-
+/*utilisation de display flex pour pouvoir mêttre les éléments a la suite et utiliser un space between pour l'éspace.*/
 .track-item{
     display: flex;
     justify-content: space-between
 }
-
+/*display flex pour mêttre les éléments a la suite et application de la couleur*/
 .app-bottom{
     display: flex;
     background-color: #313131;
 }
-
+/*width pour étendre l'éspace pris, display flex pour utiliser align-item center et centre les éléments. application de la couleur*/
 .current{
     width: 80%;
     display: flex;
     align-items: center;
     background-color: #313131;
 }
-
+/*display flex pour utiliser justify-content space-around et espacer les éléments ainsi qu'utiliser align-items center pout centrer les élément et pour finir application de la couleur.*/
 .controls{
     display: flex;
     justify-content: space-around;
