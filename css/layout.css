@@ -1,0 +1,24 @@
+body{
+    #
+}
+
+.app-top{
+    display: flex;
+}
+
+
+
+.app-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around  ;
+}
+.album{
+    display: flex;
+}
+
+.track-item{
+    display: flex;
+    justify-content: space-between    ;
+}
